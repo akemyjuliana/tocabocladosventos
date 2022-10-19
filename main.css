@@ -93,3 +93,32 @@ footer {
     background-color: #Fb7b0c;
     color: #fff;
 }
+
+@media (max-width: 767px) {
+    body {
+        max-width: 100%;
+    }
+    
+    .navbar-brand {
+        display: none;
+    }
+
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #sobre {
+        margin-top: 16px;
+    }
+
+    #calendar .col-md-6 img {
+        margin-left: 0;
+        max-width: 100%;
+    }
+    
+    iframe {
+        width: 350px;
+        height: 350px;
+        margin-left: 16px;
+    }
+}

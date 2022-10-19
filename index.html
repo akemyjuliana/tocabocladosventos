@@ -18,32 +18,37 @@
                 <h1 class="navbar-brand fs-2 fw-bold">
                     T. O. Cabloca Dos Ventos e Ogum Beira-Mar
                 </h1>
-                <ul class="nav nav-pills">
-                    <li class="nav-item pe-2 ps-2">
-                        <a href="#inicio" class="nav-link active">
-                            <i class="bi bi-house"></i>
-                            Inicio
-                        </a>
-                    </li>
-                    <li class="nav-item pe-2 ps-2">
-                        <a href="#fotos" class="nav-link">
-                            <i class="bi bi-camera"></i>
-                            Fotos
-                        </a>
-                    </li>
-                    <li class="nav-item pe-2 ps-2">
-                        <a href="#calendar" class="nav-link">
-                            <i class="bi bi-calendar2-heart"></i>
-                            Calendário
-                        </a>
-                    </li>
-                    <li class="nav-item pe-2 ps-2">
-                        <a href="#map" class="nav-link">
-                            <i class="bi bi-geo-alt"></i>
-                            Localização
-                        </a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="navbar-collapse collapse" id="menu-navegacao">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item pe-2 ps-2">
+                            <a href="#inicio" class="nav-link active">
+                                <i class="bi bi-house"></i>
+                                Inicio
+                            </a>
+                        </li>
+                        <li class="nav-item pe-2 ps-2">
+                            <a href="#fotos" class="nav-link">
+                                <i class="bi bi-camera"></i>
+                                Fotos
+                            </a>
+                        </li>
+                        <li class="nav-item pe-2 ps-2">
+                            <a href="#calendar" class="nav-link">
+                                <i class="bi bi-calendar2-heart"></i>
+                                Calendário
+                            </a>
+                        </li>
+                        <li class="nav-item pe-2 ps-2">
+                            <a href="#map" class="nav-link">
+                                <i class="bi bi-geo-alt"></i>
+                                Localização
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
     </header>
     <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
@@ -87,7 +92,7 @@
                             <img src="images/Cabocladosventos_coroa-59.jpg" class="d-block w-100 rounded" alt="nossas mantenedouras">
                         </div>
                         <div class="col-md-7">
-                            <h2 class="section-title text-center mb-5">
+                            <h2 id="sobre" class="section-title text-center mb-5">
                                 Sobre <span>nós</span>
                             </h2>
                             <p>
@@ -107,7 +112,7 @@
                     <h2 class="section-title text-center mb-5">Nossas <span>fotos</span></h2>
                 </div>
                 <div class="row">
-                    <aside class="col-md-2">
+                    <aside class="col-md-2 col-sm-12">
                         <nav class="nav nav-pills flex-column nav-fotos">
                             <button type="button" class="fw-bold text-start nav-link text-colored active" data-bs-toggle="tab" data-bs-target="#coracao-2021" >Coroação 2021</button>
                             <button type="button" class="fw-bold text-start nav-link text-colored nav-link text-colored" data-bs-toggle="tab" data-bs-target="#saudacao-ogum"">Saudação Ogum</button>
@@ -287,7 +292,7 @@
                 Calendário de <span>giras</span>
             </h2>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <img src="images/calendario.png" alt="calendario">
                 </div>
             </div>
@@ -295,10 +300,10 @@
 
         <section id="map" class="pt-5 pb-5">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.729463260477!2d-46.508811785147174!3d-23.53853522566484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce60ad81c06d33%3A0xb7a91826f449c15d!2sR.%20Ant%C3%B4nio%20Taborda%2C%20190%20-%20Jardim%20Triana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003554-100!5e0!3m2!1spt-BR!2sbr!4v1666199977995!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-12">
                     <h2 class="section-title text-center mb5">
                         Nossa <span>localização</span>
                     </h2>
@@ -309,8 +314,8 @@
                         Nossas <span>redes sociais</span>
                     </h2>
                     <div class="container container-flex">
-                        <a class="ms-3 me-3 text-colored" href="https://web.facebook.com/Tupã-Óca-Cabocla-Dos-Ventos-E-Ogum-Beira-Mar-1074845966012644"><i id="facebook" class="bi bi-facebook"></i></a>
-                        <a class="ms-3 me-3 text-colored" href="https://www.instagram.com/t.o_cabocla_dos_ventos/"><i id="instagram" class="bi bi-instagram"></i></a>
+                        <a class="ms-3 me-3 text-colored" target="_blank" href="https://web.facebook.com/Tupã-Óca-Cabocla-Dos-Ventos-E-Ogum-Beira-Mar-1074845966012644"><i id="facebook" class="bi bi-facebook"></i></a>
+                        <a class="ms-3 me-3 text-colored" target="_blank" href="https://www.instagram.com/t.o_cabocla_dos_ventos/"><i id="instagram" class="bi bi-instagram"></i></a>
                     </div>
                 </div>
                 
