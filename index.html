@@ -1,0 +1,326 @@
+<!DOCTYPE html><html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T.O. Cabloca dos Ventos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+            <div class="container">
+                <img src="images/logo-terreiro-100x100.png" alt="Logo do terreiro" class="me-5"/>
+                <h1 class="navbar-brand fs-2 fw-bold">
+                    T. O. Cabloca Dos Ventos e Ogum Beira-Mar
+                </h1>
+                <ul class="nav nav-pills">
+                    <li class="nav-item pe-2 ps-2">
+                        <a href="#inicio" class="nav-link active">
+                            <i class="bi bi-house"></i>
+                            Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 ps-2">
+                        <a href="#fotos" class="nav-link">
+                            <i class="bi bi-camera"></i>
+                            Fotos
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 ps-2">
+                        <a href="#calendar" class="nav-link">
+                            <i class="bi bi-calendar2-heart"></i>
+                            Calendário
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 ps-2">
+                        <a href="#map" class="nav-link">
+                            <i class="bi bi-geo-alt"></i>
+                            Localização
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="inicio">
+            <div id="carousel-inicio" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/carousel/Cabocladosventos_coroa-3.jpg" alt="Foto do congá">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/carousel/Cabocladosventos_coroa-10.jpg" alt="Foto do terreio">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="images/carousel/Cabocladosventos_coroa-15.jpg" alt="Foto do Chapéu">
+                    </div>
+                    <div class="carousel-item">
+                        <img  class="d-block w-100" src="images/carousel/Cabocladosventos_coroa-7.jpg" alt="Foto do sinos">
+                    </div>
+                    <div class="carousel-item">
+                        <img  class="d-block w-100" src="images/carousel/Cabocladosventos_coroa-13.jpg" alt="Foto do prateleira conga">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-inicio" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-inicio" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button class="active" type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="0"></button>
+                        <button  type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="1"></button>
+                        <button  type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="2"></button>
+                        <button  type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="3"></button>
+                        <button  type="button" data-bs-target="#carousel-inicio" data-bs-slide-to="4"></button>
+                    </div>
+                </div>                
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/Cabocladosventos_coroa-59.jpg" class="d-block w-100 rounded" alt="nossas mantenedouras">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title text-center mb-5">
+                                Sobre <span>nós</span>
+                            </h2>
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem tempora alias velit nesciunt, nobis quis, voluptas ipsum suscipit animi pariatur quidem. Odit animi, autem illum tempora nemo impedit vitae numquam.
+                            </p>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque omnis eaque quae error, velit vel excepturi quaerat recusandae optio ab magnam obcaecati quia, neque reprehenderit illum molestiae soluta atque alias!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fotos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossas <span>fotos</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-fotos">
+                            <button type="button" class="fw-bold text-start nav-link text-colored active" data-bs-toggle="tab" data-bs-target="#coracao-2021" >Coroação 2021</button>
+                            <button type="button" class="fw-bold text-start nav-link text-colored nav-link text-colored" data-bs-toggle="tab" data-bs-target="#saudacao-ogum"">Saudação Ogum</button>
+                            <button type="button" class="fw-bold text-start nav-link text-colored" data-bs-toggle="tab" data-bs-target="#batismo">Batismo 2022</button>
+                            <button type="button" class="fw-bold text-start nav-link text-colored" data-bs-toggle="tab" data-bs-target="#exu-mirim">Festa Exu Mirim 2022</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="coracao-2021">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coracao1.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao2.jpg" alt="coroandas">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao3.jpg" alt="coroandas e madrinhas">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao4.jpg" alt="coroandas e mãe">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao5.jpg" alt="coroandas saindo">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao6.jpg" alt="coroandas de maos dadas">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao10.jpg" alt="madrinhas">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao11.jpg" alt="cabloca dos Ventos">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao12.jpg" alt="colocando faixa de coroa yoh">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao13.jpg" alt="cabloco yoh e madrinha">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao14.jpg" alt="colocando faixa de coroa dai">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao15.jpg" alt="cabloco dai e madrinha">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao16.jpg" alt="colocando faixa de coroa nath">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao17.jpg" alt="cabloco nath e madrinha">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao18.jpg" alt="colocando faixa rita">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/coroacao/coroacao19.jpg" alt="cabloco rita e mae">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="saudacao-ogum">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum1.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum2.jpg" alt="coroandas">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum3.jpg" alt="coroandas e madrinhas">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum4.jpg" alt="coroandas e mãe">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum5.jpg" alt="coroandas saindo">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum6.jpg" alt="coroandas de maos dadas">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum7.jpg" alt="madrinhas">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum8.jpg" alt="cabloca dos Ventos">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum9.jpg" alt="colocando faixa de coroa yoh">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum10.jpg" alt="cabloco yoh e madrinha">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum11.jpg" alt="colocando faixa de coroa dai">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum12.jpg" alt="cabloco dai e madrinha">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum13.jpg" alt="colocando faixa de coroa nath">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum14.jpg" alt="cabloco nath e madrinha">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum15.jpg" alt="colocando faixa rita">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/ogum/ogum16.jpg" alt="cabloco rita e mae">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="batismo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo1.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo2.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo3.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo4.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo5.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo6.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo7.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo8.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo9.jpg" alt="caixa de coroa">
+                                    </div><div class="col-md-3">
+                                        <img class="d-block w-100" src="images/batismo/batismo10.jpg" alt="caixa de coroa">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="exu-mirim">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/exumirim/mirim1.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/exumirim/mirim2.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/exumirim/mirim3.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/exumirim/mirim4.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/exumirim/mirim5.jpg" alt="caixa de coroa">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/exumirim/mirim6.jpg" alt="caixa de coroa">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="calendar" class="pt-5 pb-5">
+            <h2 class="section-title text-center mb-5">
+                Calendário de <span>giras</span>
+            </h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/calendario.png" alt="calendario">
+                </div>
+            </div>
+        </section>
+
+        <section id="map" class="pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.729463260477!2d-46.508811785147174!3d-23.53853522566484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce60ad81c06d33%3A0xb7a91826f449c15d!2sR.%20Ant%C3%B4nio%20Taborda%2C%20190%20-%20Jardim%20Triana%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003554-100!5e0!3m2!1spt-BR!2sbr!4v1666199977995!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="section-title text-center mb5">
+                        Nossa <span>localização</span>
+                    </h2>
+                    <div class="container container-flex">
+                        <p>Rua Antonio Taborda, 190 </br> Jardim Triana </br> São Paulo - SP </p>
+                    </div>
+                    <h2 class="section-title text-center mb5 mt-5">
+                        Nossas <span>redes sociais</span>
+                    </h2>
+                    <div class="container container-flex">
+                        <a class="ms-3 me-3 text-colored" href="https://web.facebook.com/Tupã-Óca-Cabocla-Dos-Ventos-E-Ogum-Beira-Mar-1074845966012644"><i id="facebook" class="bi bi-facebook"></i></a>
+                        <a class="ms-3 me-3 text-colored" href="https://www.instagram.com/t.o_cabocla_dos_ventos/"><i id="instagram" class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        &copy; Direitos reservados - 2022
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

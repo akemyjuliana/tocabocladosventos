@@ -1,0 +1,95 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header {
+    border-bottom: 5px solid #Fb7b0c;
+    background-color: #fff;
+}
+
+.navbar-brand,
+.section-title {
+    color: #Fb7b0c;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar-brand:hover {
+    color: #Fb7b0c;
+}
+
+.nav .nav-item .nav-link  {
+    background-color: #Fb7b0c;
+    color: #fff;
+}
+
+.nav .nav-item .nav-link.active {
+    background-color: #ffa557;
+}
+
+span {
+    color: #FF0000 ;
+}
+
+section {
+    border-bottom: 3px dashed #Fb7b0c;
+}
+
+.text-colored {
+    color: #Fb7b0c;
+}
+
+.nav-fotos .nav-link.active,
+.nav-fotos .nav-link.active:hover {
+    background-color: #Fb7b0c;
+    color: #fff;
+}
+
+.nav-fotos .nav-link:hover {
+    color: #Fb7b0c;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#calendar .col {
+    display: flex;
+}
+
+#calendar .col-md-6 img {
+    width: 800px;
+    margin-left: 350px;
+}
+
+iframe {
+    margin-left: 100px;
+}
+
+p {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#map {
+    border: none;
+}
+
+iframe {
+    width: 400px;
+    height: 400px;
+}
+
+#facebook, #instagram {
+    font-size: 48px;
+}
+
+#facebook:hover,
+#instagram:hover {
+    color: #Fb7b0c;
+}
+
+footer {
+    background-color: #Fb7b0c;
+    color: #fff;
+}
